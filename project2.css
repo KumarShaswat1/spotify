@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color:rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    
+   
+    /* font-family: 'Roboto', sans-serif; */
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    color: white;
+    height:4vh;
+    /* margin:5px; */
+    padding:10px ;
+    align-items: center;
+   
+}
+nav ul li{
+    padding: 10px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+.brand img{
+
+height:5vh;
+border-radius: 50%;
+}
+.container{
+min-height: 67vh;
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+color: white;
+margin:10px auto;
+width:70%;
+border-radius: 2%;
+padding:30px;
+background-image:url('spotify-g5fb1e9da5_640.jpg');
+background-size: contain;
+background-size: 450px;
+background-repeat: no-repeat;
+background-position: 400px;
+border:2px solid ;
+}
+
+.bottom{
+    position: sticky;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height:150px;
+    bottom:0px;
+    text-align: center;
+    color: white;
+    
+}
+.songInfo{
+    margin:15px;
+}
+.icons{
+    margin:11px 21px;
+}
+.icons i{
+    padding: 6px;
+    cursor: pointer;
+}
+#adjust-bar{
+    width: 80vh;
+    cursor: pointer;
+}
+.songItems{
+    display: flex;
+    height: 50px;
+    width: 30vh;
+    background-color: rgb(14, 167, 52);
+    color: rgb(255, 255, 255);
+    margin: 12px 0px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+.songItems img{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 40px;
+}
+.timestamp{
+    margin: 0px 4px;
+    
+}
+.songListPlay i{
+    cursor: pointer;
+}
